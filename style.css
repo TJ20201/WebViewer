@@ -1,0 +1,50 @@
+body {
+	background-color: #353535;
+	color: #ffffff;
+	font-family: arial;
+	min-width: 100dvw;
+	min-height: 100dvh;
+	overflow:hidden;
+	padding: 5px;
+	margin: 5px;
+}
+
+.box {
+	background-color: #171717;
+	color: #ffffff;
+	border-radius: 5px;
+	border-width: 0px;
+}
+
+#urlbar {
+	width: 65dvw;
+	transform: translateX(12.5dvw);
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+#urlbar:hover {
+	background-color: #262626;
+}
+#urlbar:active {
+	background-color: #343434;
+}
+
+#searchbtn {
+	background-color: #131313;
+	width: 10dvw;
+	transform: translateX(12.5dvw);
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+#searchbtn:hover {
+	background-color: #202020;
+}
+#searchbtn:active {
+	background-color: #262626;
+}
+
+#webview {
+	width: 50dvw;
+	height: 50dvh;
+	transform: translate(25dvw, 25dvh);
+}
